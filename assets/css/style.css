@@ -610,13 +610,13 @@ figcaption >*{
     }
 
     .navbar:hover ~.header-right{
-        padding-top: 25%;
+        padding-top: 30%;
     }
     .navbar
     {
         background:none;
         width: 100%;
-        z-index: 999;
+        /* z-index: 999; */
         position:absolute;
         margin-bottom: 80px;
     }
