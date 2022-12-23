@@ -610,7 +610,7 @@ figcaption >*{
     }
 
     .navbar:hover ~.header-right{
-        padding-top: 30%;
+        margin-top: 50%;
     }
     .navbar
     {
