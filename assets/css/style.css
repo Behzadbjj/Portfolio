@@ -239,19 +239,25 @@ figcaption{
        margin-top: 0px;
        transition: 2s;
    }
+   .container-projets{
+    display: flex;
+    flex-direction: column;
+    margin-top: 42%;
+    margin-right:auto;
+    margin-left: 5%;
+   }
    
  .projets{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 30%;
+    display: grid;
+    grid-template-columns:repeat(2 ,1fr);
     width: 100%;
-    flex-wrap: wrap;
-gap: 50px;
+    grid-auto-flow: dense;
+    gap: 50px;
+    text-align: center;
+    margin-left: 10%;
+    /* padding-top: 19%; */
  }
- .projets h2{
-padding:0px 0px 20px 30px;
-
- }
+ 
  .projet{
     background-color: #F4D03F;
     background-image: linear-gradient(132deg, #0c0c0c 40%, #16A085 100%);
@@ -566,6 +572,10 @@ animation-iteration-count: infinite;
     margin-left: 0px;
     margin-top: 100px;
    }
+   .projets{
+    grid-template-columns: 1fr;
+    margin:0;
+   }
    .projets img{
     width: 240px;
     height: 150px;
@@ -579,7 +589,6 @@ animation-iteration-count: infinite;
     width: 250px;
     height: 150;
     margin-top: 0px;
-    margin-left: 10px;
 }
 .flash-up{
     margin-right: 30px;
